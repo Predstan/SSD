@@ -61,13 +61,11 @@ Periscopy</h1>
                 <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Fadlullah Raji</a><sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">John-Murray Bruce</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">University of South Florida<br>Conferance name and year</span>
+                    <span class="author-block">University of South Florida<br>ECCV 2024</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -150,7 +148,27 @@ Periscopy</h1>
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Conventional imaging requires a line of sight to create ac-
+            curate visual representations of a scene. In certain circumstances, how-
+            ever, obtaining a suitable line of sight may be impractical, dangerous, or
+            even impossible. Non-line-of-sight (NLOS) imaging addresses this chal-
+            lenge by reconstructing the scene from indirect measurements. Recently,
+            passive NLOS methods that use an ordinary photograph of the subtle
+            shadow cast onto a visible wall by the hidden scene have gained interest.
+            These methods are currently limited to 1D or low-resolution 2D color
+            imaging, or localization of a hidden object whose shape is approximately
+            known. Here, we generalize this class of methods and demonstrate a 3D
+            reconstruction of a hidden scene from an ordinary NLOS photograph.
+            To achieve this, we propose a novel reformulation of the light transport
+            model that conveniently decomposes the hidden scene into light-occluding
+            and non-light-occluding components to yield a separable non-linear least
+            squares (SNLLS) inverse problem for reconstructing the hidden scene.
+            We develop two solutions: A gradient-based optimization method and
+            a physics-inspired neural network approach, which we call Soft Shadow
+            diffusion (SSD). Despite the challenging ill-conditioned inverse problem
+            encountered here, our approaches are effective on numerous 3D scenes in
+            real experimental scenarios. Although SSD is trained in simulation only,
+            it generalizes well to both unseen classes and real-world NLOS scenes.
           </p>
         </div>
       </div>
